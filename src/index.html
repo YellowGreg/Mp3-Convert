@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>YouTube Converter</h1>
+    <div class="converter">
+      <input type="text" id="youtubeUrlInput" class="input-field" placeholder="Enter YouTube video URL">
+      <button class="convert-button" onclick="convert('single', 'mp3')">Convert using Single Button API</button>
+      <button class="convert-button" onclick="convert('button', 'mp3')">Convert using Button API</button>
+      <div id="statusMessage"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
